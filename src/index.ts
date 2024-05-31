@@ -35,7 +35,6 @@ const plugin: Plugin<PluginOptions> = (editor, opts = {}) => {
     labelColumn: 'Column',
     ...opts,
   };
-
   loadBlocks(editor, options);
 };
 
